@@ -1,0 +1,4 @@
+{
+    "edgeworker-version":"0.1",
+    "description":"Create a custom firewall based on configurations on Linode Edgeworkers"
+}
