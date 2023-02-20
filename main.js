@@ -1,4 +1,4 @@
-import { default as config } from "./conifgurations";
+import { default as config } from "./configurations";
 import UAParser from "./parser";
 
 export function onClientReqeust(req, res) {
