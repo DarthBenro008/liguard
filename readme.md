@@ -4,6 +4,25 @@
 
 ## 🤔 What is Liguard?
 
+Liguard is an `Edge cloud firewall reverse proxy` with an inbuilt ddos prevention solution. Does that sound complex? Let's break it down.
+
+- **Cloud:** A system/server that is sitting on the cloud
+- **Firewall:** A system that denies/allows a packet based on some instruction and conditional logic
+- **Reverse Proxy:** A system that sits in-front of your actual server and forward the request to your actual server safely
+- **DDoS Protection:** A system that detects DDoS and contains the attack
+
+Liguard is a combination of all these! Yes, you read that right.
+
+Imagine you wanted to **block people using iPhone** to access your server, or **people using Chrome** or accessing from IPs of specific location. You can do that all with Liguard!
+
+What are the major advantages of using Liguard?
+
+- **Declarative security policies using JSON**
+- Runs on Edge, thanks to linode's EdgeWorker service
+
+What are some upcoming features?
+- Promethues and Grafana support for better analysis of DDOS
+
 ## 💻 Usage
 
 You can modify the `configuarations.js` and add your own security policies in JSON!
